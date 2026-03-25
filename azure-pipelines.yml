@@ -1,7 +1,7 @@
 trigger:
 - master
-pool:
- name: my-pool
+pool: 
+ name: 
 steps:
 - task: SonarQubePrepare@8
   inputs:
