@@ -1,7 +1,5 @@
 trigger:
 - master
-pool:
- name: megha-pool
 steps:
 - task: SonarQubePrepare@8
   inputs:
